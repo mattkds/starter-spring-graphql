@@ -1,3 +1,5 @@
+### By convention Spring will look for GraphQL Schema’s in the /src/main/resources/graphql directory
+### There are built-in scalar types like ID, String, Int, Float, and Boolean and can also reference object types created in our app
 type Book {
     id: ID!
     title: String
